@@ -9,6 +9,7 @@ __pycache__/
 # Distribution / packaging
 .csv
 .Python
+DS/simulated_data_raw
 build/
 develop-eggs/
 dist/
