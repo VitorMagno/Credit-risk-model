@@ -410,7 +410,7 @@ fraud_and_transactions_stats_fig
 #%%
 
 
-DIR_OUTPUT = "./simulated_data_raw/"
+DIR_OUTPUT = "../data/"
 
 if not os.path.exists(DIR_OUTPUT):
     os.makedirs(DIR_OUTPUT)
