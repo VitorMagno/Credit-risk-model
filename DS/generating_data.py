@@ -6,7 +6,6 @@ import pandas as pd
 
 import datetime
 import time
-
 import random
 
 # For plotting
@@ -425,5 +424,5 @@ for day in range(transactions_df.TX_TIME_DAYS.max()+1):
     filename_output = date.strftime("%Y-%m-%d")+'.pkl'
     
     # Protocol=4 required for Google Colab
-    transactions_day.to_pickle(DIR_OUTPUT+filename_output, protocol=4)
+    transactions_day.to_parquet(DIR_OUTPUT+filename_output, protocol=4)
 # %%
